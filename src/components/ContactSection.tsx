@@ -75,7 +75,7 @@ const ContactSection = () => {
 
             <div className="lg:col-span-2 flex flex-col gap-4 justify-center">
               <motion.a
-                href="mailto:gopivenkaiah@example.com"
+                href="mailto:mopidevigopi45@gmail.com"
                 className="flex items-center gap-4 p-4 glass rounded-xl gradient-border group hover:neon-glow transition-all duration-300"
                 whileHover={{ x: 5 }}
               >
@@ -89,7 +89,7 @@ const ContactSection = () => {
               </motion.a>
 
               <motion.a
-                href="https://linkedin.com"
+                href="https://www.linkedin.com/in/mopidevi-gopi-venkaiah-590510268/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-4 p-4 glass rounded-xl gradient-border group hover:neon-glow transition-all duration-300"
@@ -105,7 +105,7 @@ const ContactSection = () => {
               </motion.a>
 
               <motion.a
-                href="https://github.com"
+                href="https://github.com/mopidevigopi45-oss/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-4 p-4 glass rounded-xl gradient-border group hover:neon-glow-purple transition-all duration-300"

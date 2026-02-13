@@ -64,9 +64,12 @@ const HeroSection = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.6 }}
           >
-            <span className="gradient-text">Engineering Intelligent Systems</span>
-            <br />
-            <span className="text-foreground">with AI Precision</span>
+            <span className="gradient-text">
+              <TypeWriter
+                texts={["Mopidevi Gopi Venkaiah"]}
+                speed={50}
+              />
+            </span>
           </motion.h1>
 
           <motion.div
@@ -129,9 +132,6 @@ const HeroSection = () => {
                 alt="Mopidevi Gopi Venkaiah"
                 className="w-full h-full object-cover"
               />
-            </div>
-            <div className="absolute -bottom-2 -right-2 w-12 h-12 rounded-full glass flex items-center justify-center neon-glow">
-              <span className="text-xl">🤖</span>
             </div>
           </div>
         </motion.div>
